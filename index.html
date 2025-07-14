@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atroo - Votre présence digitale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">🅰️ ATROO</div>
+                <nav>
+                    <ul>
+                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#logistique">Logistique</a></li>
+                        <li><a href="#ressources">Ressources</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="contact-btn">Discutons ensemble</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Votre présence digitale<br>Notre terrain d'expertise</h1>
+                    <p>Nous accompagnons les marques à chaque étape de leur stratégie digitale pour des résultats et de
+                        la performance.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Commencer</button>
+                        <button class="btn-secondary">Voir nos projets</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&h=600&fit=crop"
+                        alt="Digital Marketing Professional">
+                    <div class="stats-card top">
+                        <div class="stats-value">28k</div>
+                        <div class="stats-label">Followers</div>
+                    </div>
+                    <div class="stats-card bottom">
+                        <div class="stats-value">285%</div>
+                        <div class="stats-label">Growth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section with Moving Animation -->
+    <section class="partners">
+        <div class="partners-track">
+            <div class="partner-logo">🌐 Webflow</div>
+            <div class="partner-logo">⭐ Trustpilot</div>
+            <div class="partner-logo">🎯 Marketo</div>
+            <div class="partner-logo">📊 Mailchimp</div>
+            <div class="partner-logo">🔍 SEMrush</div>
+            <div class="partner-logo">💻 Figma</div>
+            <div class="partner-logo">📱 Slack</div>
+            <div class="partner-logo">🌐 Webflow</div>
+            <div class="partner-logo">⭐ Trustpilot</div>
+            <div class="partner-logo">🎯 Marketo</div>
+            <div class="partner-logo">📊 Mailchimp</div>
+            <div class="partner-logo">🔍 SEMrush</div>
+            <div class="partner-logo">💻 Figma</div>
+            <div class="partner-logo">📱 Slack</div>
+        </div>
+    </section>
+
+    <!-- Services Section with Carousel -->
+    <section class="services" id="expertise">
+        <div class="container">
+            <h2 class="section-title">Un accompagnement 360°<br>pour faire grandir votre marque en ligne.</h2>
+            <div class="services-carousel">
+                <div class="services-track" id="servicesTrack">
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Marketing de contenu et référencement</h3>
+                        <p>Créez du contenu engageant et optimisé pour les moteurs de recherche. Nous développons votre
+                            visibilité en ligne grâce à des stratégies SEO performantes.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>Développement et technologies</h3>
+                        <p>Solutions web sur mesure et applications performantes. Notre équipe technique transforme vos
+                            idées en réalité digitale avec les dernières technologies.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Analytique et data</h3>
+                        <p>Analysez vos performances et optimisez vos résultats. Nous transformons vos données en
+                            insights actionnables pour votre croissance.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>Stratégie Digitale</h3>
+                        <p>Définissez votre feuille de route digitale avec nos experts. Nous concevons des stratégies
+                            personnalisées pour atteindre vos objectifs business.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎯</div>
+                        <h3>Publicité en ligne</h3>
+                        <p>Maximisez votre ROI avec des campagnes publicitaires ciblées. Google Ads, Facebook Ads,
+                            LinkedIn... nous optimisons vos investissements.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Maintenance et support</h3>
+                        <p>Assurez la continuité de votre présence digitale. Notre équipe veille sur vos plateformes
+                            24/7 pour une performance optimale.</p>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-btn" id="prevBtn">‹</button>
+                    <button class="carousel-btn" id="nextBtn">›</button>
+                </div>
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values">
+        <div class="container">
+            <div class="values-content">
+                <div class="values-tabs">
+                    <button class="tab-button active"><span>🎯 Performance</span></button>
+                    <button class="tab-button"><span>💰 Créativité</span></button>
+                    <button class="tab-button"><span>🚀 Innovation</span></button>
+                    <button class="tab-button"><span>🤝 Transparence</span></button>
+                    <button class="tab-button"><span>📊 Méthodologie</span></button>
+                    <button class="tab-button"><span>🔄 Réactivité</span></button>
+                </div>
+                <div class="values-display">
+                    <h3>NOS VALEURS<br>Des convictions fortes<br>pour des résultats durables.</h3>
+                    <p>Nous croyons en l'excellence et la performance. Chaque projet est une opportunité de dépasser les
+                        attentes et de créer de la valeur ajoutée pour nos clients. Notre approche méthodique et notre
+                        passion pour l'innovation nous permettent de livrer des solutions digitales exceptionnelles.</p>
+                    <button class="btn-white">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <div class="team-content">
+                <div class="team-text">
+                    <h2>Découvrez nos opportunités et exprimez votre potentiel.</h2>
+                    <p>Rejoignez une équipe passionnée et dynamique où l'innovation et la créativité sont au cœur de
+                        chaque projet. Nous recherchons des talents motivés pour construire ensemble l'avenir du
+                        digital.</p>
+                    <button class="btn-primary">Rejoignez-nous
+                    </button>
+                </div>
+                <div class="team-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=600&fit=crop"
+                        alt="Team collaboration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Atroo, partenaire de votre<br>performance digitale</h2>
+                <button class="btn-white">Commencer</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NOS EXPERTISES</h4>
+                    <ul>
+                        <li><a href="#">Stratégie digitale</a></li>
+                        <li><a href="#">Marketing de contenu</a></li>
+                        <li><a href="#">Développement web</a></li>
+                        <li><a href="#">Campagnes publicitaires</a></li>
+                        <li><a href="#">Analytique et data</a></li>
+                        <li><a href="#">Maintenance et support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>RESSOURCES</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guides pratiques</a></li>
+                        <li><a href="#">Case studies</a></li>
+                        <li><a href="#">Webinaires</a></li>
+                        <li><a href="#">Templates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ENTREPRISE</h4>
+                    <ul>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Équipe</a></li>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                        <li><a href="#">Témoignages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li><a href="#">+33 1 23 45 67 89</a></li>
+                        <li><a href="#">contact@atroo.com</a></li>
+                        <li><a href="#">123 rue des Startups</a></li>
+                        <li><a href="#">75001 Paris, France</a></li>
+                        <li><a href="#">Prendre rendez-vous</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2024 Atroo Agency • Tous droits réservés • Politique de confidentialité • Conditions
+                    générales</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
